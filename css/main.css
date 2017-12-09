@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+.fila{
+    background-color: salmon;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.columna{
+    box-sizing: border-box;
+}
+.una-columna{
+    width: 90%;
+    margin: 0 auto;
+}
+.tres-columnas{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    text-align: right;
+}
+
+header h1{
+    padding-right: 0.5em;
+    padding-top: 1em;
+}
+header p{
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+.panda-uno{
+    background-image: url(../assets/images/uno.jpg); 
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+/* CARACTERISTICA GENERAL DE LA IMAGEN GRANDE DE PANDAS*/
+.panda-image{
+    filter: grayscale(100%);
+    background-size: cover;
+    background-position: center;
+}
+.linea-rosa{
+    height: 2em;
+}
+.seccion-verde{
+    background-color: lightgreen;
+    padding: 5em 0;
+}
+.article-panda{
+    width: 30%;
+    margin: auto;
+    background-color: salmon;
+    padding: 1em;
+}
+.panda-dos{
+    background-image: url(../assets/images/dos.jpg); 
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+.panda-tres{
+    background-image: url(../assets/images/tres.jpg); 
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+h3{
+    text-align: center;
+}
+.seis-columnas img{
+    width: 14.6667%;
+    float: left;
+    margin-right: 5%;
+    border: 0.8em solid #fff;
+}
+.seis-columnas{
+    padding-left: 14.6667%;
+}
+
+footer{
+    text-align: right;
+    padding: 1em 0;
+}
